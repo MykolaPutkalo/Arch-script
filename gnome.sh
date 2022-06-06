@@ -10,7 +10,7 @@ sudo firewall-cmd --add-port=1025-65535/tcp --permanent
 sudo firewall-cmd --add-port=1025-65535/udp --permanent
 sudo firewall-cmd --reload
 
-sudo pacman -S --noconfirm xorg gdm gnome gnome-extra firefox gnome-tweaks simplescreenrecorder arc-gtk-theme arc-icon-theme
+sudo pacman -S --noconfirm xorg gdm gnome firefox vlc gnome-tweaks simplescreenrecorder arc-gtk-theme arc-icon-theme
 
 sudo systemctl enable gdm
 /bin/echo -e "\e[1;32mREBOOTING IN 5..4..3..2..1..\e[0m"
